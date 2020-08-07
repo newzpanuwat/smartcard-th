@@ -15,3 +15,9 @@ https://justrocketscience.com/post/install-card-reader-ubuntu-vm/
 driver for this reader
 https://drive.google.com/file/d/1dEC21wo-AfpPjrbU9McELYYLRtmBog8B/view
 
+
+
+#Step
+1.sudo apt install python3-pyscard
+2. sudo apt-get install libusb-1.0-0-dev libpcsclite-dev pcscd pcsc-tools
+3. insert card -> test -> pcsc_scan if correct not see any errors
